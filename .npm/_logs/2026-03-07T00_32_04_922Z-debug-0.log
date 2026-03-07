@@ -1,0 +1,42 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@11.11.0
+2 info using node@v25.3.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm exec localtonet http --to 8080
+7 verbose argv "exec" "--" "localtonet" "http" "--to" "8080"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-03-07T00_32_04_922Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-03-07T00_32_04_922Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:1089470464 maxSize:272367616 maxEntrySize:136183808
+12 http fetch GET 200 https://registry.npmjs.org/npm 741ms
+13 http fetch GET 404 https://registry.npmjs.org/localtonet 683ms (cache skip)
+14 http fetch GET 404 https://registry.npmjs.org/localtonet 377ms (cache skip)
+15 verbose stack HttpErrorGeneral: 404 Not Found - GET https://registry.npmjs.org/localtonet - Not found
+15 verbose stack     at /data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/npm-registry-fetch/lib/check-response.js:103:15
+15 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+15 verbose stack     at async RegistryFetcher.packument (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/pacote/lib/registry.js:90:19)
+15 verbose stack     at async RegistryFetcher.manifest (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/pacote/lib/registry.js:128:23)
+15 verbose stack     at async getManifest (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/libnpmexec/lib/index.js:29:22)
+15 verbose stack     at async missingFromTree (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/libnpmexec/lib/index.js:69:22)
+15 verbose stack     at async /data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/libnpmexec/lib/index.js:191:32
+15 verbose stack     at async Promise.all (index 0)
+15 verbose stack     at async exec (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/libnpmexec/lib/index.js:189:3)
+15 verbose stack     at async Npm.exec (/data/data/com.termux/files/usr/lib/node_modules/npm/lib/npm.js:209:9)
+16 verbose statusCode 404
+17 verbose pkgid localtonet@*
+18 error code E404
+19 error 404 Not Found - GET https://registry.npmjs.org/localtonet - Not found
+20 error 404
+21 error 404  The requested resource 'localtonet@*' could not be found or you do not have permission to access it.
+22 error 404
+23 error 404 Note that you can also install from a
+24 error 404 tarball, folder, http url, or git url.
+25 verbose cwd /data/data/com.termux/files/home
+26 verbose os Linux 5.4.254-android12-9-660873-gb555c87043d9-ab603
+27 verbose node v25.3.0
+28 verbose npm  v11.11.0
+29 verbose exit 1
+30 verbose code 1
+31 error A complete log of this run can be found in: /data/data/com.termux/files/home/.npm/_logs/2026-03-07T00_32_04_922Z-debug-0.log
