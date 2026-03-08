@@ -32,7 +32,7 @@ const App = () => {
         
         <button 
           onClick={handleTransfer}
-          style={{ width: '100%', padding: '18px', backgroundColor: '#2563eb', color: '#fff', border: 'none', borderRadius: '14px', fontSize: '16px', fontWeight: '700', cursor: 'pointer', transition: 'all 0.2s' }}
+          style={{ width: '100%', padding: '18px', backgroundColor: '#2563eb', color: '#fff', border: 'none', borderRadius: '14px', fontSize: '16px', fontWeight: '700', cursor: 'pointer' }}
         >
           {status === 'PROCESSING...' ? 'Encrypting...' : 'Initiate Secure Transfer'}
         </button>
